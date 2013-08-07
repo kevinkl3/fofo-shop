@@ -45,32 +45,25 @@ body {
     width:100%;
 }
 .mainapp{
-	position:absolute;
-	padding: 20px;
+	text-align: center
 }
 
-.menux{
-	padding: 7px;
-	text-align: center;
-	overflow: hidden;
-}
-.contenedor{
-	padding: 4px;
+.wrapper{
 	overflow: hidden;
 	display: inline-block;
 }
 
-.menux div{
-	margin: 7px;
+.menux{
+	text-align: center;
 }
 
-.pantalla-centrada{
-	text-align: center;
-	position: absolute;
+.menux .span3{
+	margin: 9px;
 }
 
 .logohead{
 	max-width: 360px;
+	float:left;
 }
 /* Portrait layout (default) */
 .app {
